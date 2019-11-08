@@ -1,0 +1,111 @@
+
+body{
+    background-color: rgb(197, 197, 197);
+}
+nav{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  nav ul{
+    position: relative;
+    background:  rgb(105, 189, 130);
+    padding: 0px 0px;
+    list-style: none;
+    display: inline-table;
+    width: 100%;
+    border-radius: 10px;
+  }   
+  
+  nav ul li{
+    float: left;
+  }
+  
+  nav ul li a:hover{
+    background-color: seagreen;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  nav ul ul{
+    background:  rgb(92, 163, 114);
+    border-radius: 0px;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+  }
+  
+  nav ul ul li {
+  float: none;
+  border-top: 1px;
+  border-bottom: 1px;
+  position: relative;
+  }
+  
+  nav ul ul li a {
+    padding: 15px 40px;
+    color: #fff;
+  }
+  
+  nav ul ul li a:hover {
+    background-color: rgb(38, 126, 76);
+  }
+  
+  nav ul ul{
+    display: none;
+  }
+  
+  nav ul li:hover > ul{
+    display: block;
+    width: 200px;
+  }
+.propil
+{
+    background-color: rgb(105, 189, 130);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+h1
+{
+    font-size: 30px;
+    text-align:center;
+    color:#666;
+    padding:20px 0;
+    border-bottom:1px solid #cccccc;
+}
+.bg
+{    
+    margin: auto;
+    text-align: center;
+}
+
+.foto
+{
+    height: 50%;
+    width: 50%;
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+.data
+{
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.bg2
+{
+    width:450px;
+    height: 550px;
+    margin:30px auto;
+    background:rgb(236, 235, 235);
+    border-radius: 10px;
+}

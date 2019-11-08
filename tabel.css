@@ -1,0 +1,161 @@
+body
+{
+  background:rgb(214, 212, 212);
+}
+nav{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+nav ul{
+  position: relative;
+  background:  rgb(105, 189, 130);
+  padding: 0px 0px;
+  list-style: none;
+  display: inline-table;
+  width: 100%;
+  border-radius: 10px;
+}   
+
+nav ul li{
+  float: left;
+}
+
+nav ul li a:hover{
+  background-color: seagreen;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+  color: #fff;
+}
+
+nav ul ul{
+  background: rgb(92, 163, 114);
+  border-radius: 0px;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+}
+
+nav ul ul li {
+float: none;
+border-top: 1px;
+border-bottom: 1px;
+position: relative;
+}
+
+nav ul ul li a {
+  padding: 15px 40px;
+  color: #fff;
+}
+
+nav ul ul li a:hover {
+  background-color: rgb(38, 126, 76);
+}
+
+nav ul ul{
+  display: none;
+}
+
+nav ul li:hover > ul{
+  display: block;
+  width: 200px;
+}
+.container{
+  padding: 35px;
+}
+
+h2{
+color: #66CDAA;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.button-add{
+background: #66CDAA;
+border: 1px solid black;
+padding: 0.2em 1em 0.2em 1em;
+color: white;
+font-size: 16px;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.button-add:hover{
+background: seagreen;
+}
+
+.button-danger{
+border: 1px solid black;
+padding: 0.2em 0.5em 0.2em 0.5em;
+background: lightcoral;
+color: white;
+font-size: 16px;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.button-utama{
+  border: 1px solid black;
+  padding: 0.2em 1em 0.2em 1em;
+  background: #6495ed;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button-danger:hover{
+  background: rgb(209, 98, 98);
+}
+
+
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+  text-shadow: 1px 1px 0px #fff;
+  background: #eaebec;
+  margin-top: 20px;
+  border-radius: 10px;
+
+}
+
+ 
+table th {
+  padding: 15px 40px;
+  background: #ededed;
+}
+ 
+table tr {
+  text-align: center;
+  padding-left: 20px;
+}
+ 
+table td:first-child {
+  text-align: left;
+  padding-left: 20px;
+  border-left: 0;
+}
+.value {
+  padding: 15px 35px;
+  background: #fafafa;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+  background: -moz-linear-gradient(top, #fbfbfb, #fafafa);
+  font-weight: bold;
+  color: #666;
+}
+a
+{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+h2
+{
+  padding-right: 350px;
+}
+
